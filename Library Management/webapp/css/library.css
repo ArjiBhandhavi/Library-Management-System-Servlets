@@ -1,0 +1,168 @@
+*{
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+}
+.body {    
+    background: linear-gradient(rgb(219 227 246 / 30%) 100%,rgb(204 212 230 / 30%) 100%), url(../images/libbg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+.login{    
+    background: linear-gradient(rgba(233,233,233,0.4) 100%,rgba(222,233,233,0.4) 100%), 
+        url('../images/libbg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+.dash {
+    min-height:88vh;
+    background: linear-gradient(#d4fdf5c7 100%,#a7f1a740 100%), 
+        url('../images/dd.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+a,a:visited{
+	color:blue;
+}
+
+body{
+	background-color:#f0f0f0;
+}
+
+.main{
+	width:70%;
+	margin:auto;
+	margin-top:100px;
+}
+
+.col{
+	width:33%;
+	float:left;
+	height:100px;
+	border:1px solid black;
+	border-radius:2px;
+	text-align:center;
+	line-height:100px;
+}
+.col:hover{
+	background-color:skyblue;
+}
+.col a{
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:24px;
+}
+
+.form{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	border:2px solid black;
+	padding:20px;
+	
+}
+.control{
+	padding:8px;
+	width:250px;
+	margin:3px;
+}
+
+.control[readonly]{
+	background-color:#f0f0f0;
+	outline:none;
+	border:1px solid gray;
+}
+label{
+	display:inline-block;
+	width:200px;
+}
+.btn{
+	padding:8px;
+	width:120px;
+}
+.header{
+	height:100px;
+	background-color:skyblue;
+	font-size:22px;
+	line-height:100px;
+	border-bottom:2px solid black;
+}
+.sidebar{
+	width:200px;
+	float:left;
+	border-right:1px solid black;
+	min-height:600px;
+}
+.mainpanel{
+	background-color:white;
+	min-height:600px;
+	margin-left:200px;
+	vertical-align:top;
+	padding:10px;
+}
+.footer{
+	height:50px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	line-height:50px;
+}
+a.links{
+	padding:8px;
+	border-bottom:1px solid black;
+	display:block;
+	
+}
+a.links:hover{
+	background-color:red;
+	color:white;
+}
+.title{
+	padding:8px;
+	border-bottom:2px solid green;
+}
+.table{
+	width:100%;
+	margin:auto;
+	border-collapse: collapse;	
+	margin-top:10px;
+}
+.table td,.table th{
+	border:1px solid black;
+	padding:10px;
+}
+.table thead{
+	background-color:skyblue;
+}
+.table tbody tr{
+	background-color:lightgreen;
+}
+a.btn{
+	padding:8px;
+	background-color:blue;
+	color:white;
+	border-radius:4px;
+}
+a.cancelbtn{
+	padding:8px;
+	background-color:red;
+	color:white;
+	border-radius:4px;
+}
+a.yesbtn{
+	padding:8px;
+	background-color:green;
+	color:white;
+	border-radius:4px;
+}
